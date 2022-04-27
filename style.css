@@ -21,16 +21,12 @@ body {
     position: relative;
 }
 
-input {
+input[type=text] {
     padding: 1.25rem 1.75rem;
     border-radius: 2rem;
     width: 0vw;
     transition: .3s all ease-in-out;
     border: 1px solid grey;
-}
-
-.input-expand {
-    width: 20vw;
 }
 
 .icon {
