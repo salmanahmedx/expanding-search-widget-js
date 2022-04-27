@@ -1,0 +1,41 @@
+/* global */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    padding: 4rem;
+}
+
+/* search section */
+
+.icon-container {
+    position: relative;
+}
+
+input {
+    padding: 1rem 1.5rem;
+    border: transparent;
+    border-radius: 2rem;
+    width: 20vw;
+    transition: .3s all ease-in-out;
+}
+
+.input-shrink {
+    width: 3vw;
+}
+
+.icon {
+    cursor: pointer;
+    color: brown;
+    font-size: 1.5rem;
+    padding-left: 1.2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
